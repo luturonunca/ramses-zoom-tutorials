@@ -1,0 +1,28 @@
+# Local builds of the codes (cloned and compiled by the notebooks)
+Cosmological-Zoom/MUSIC2/
+Cosmological-Zoom/ramses/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Sphinx build output
+doc/_build/
+
+# Run products: ignore everything under MyFirstZoom ...
+Cosmological-Zoom/MyFirstZoom/**
+# ... except the directory tree and the light text files
+!Cosmological-Zoom/MyFirstZoom/**/
+!Cosmological-Zoom/MyFirstZoom/**/*.conf
+!Cosmological-Zoom/MyFirstZoom/**/*.conf_log.txt
+!Cosmological-Zoom/MyFirstZoom/**/music.out
+!Cosmological-Zoom/MyFirstZoom/**/ramses.nml
+!Cosmological-Zoom/MyFirstZoom/**/hastlog.log
+!Cosmological-Zoom/MyFirstZoom/Selection/results/music_zoom_*
+!Cosmological-Zoom/MyFirstZoom/ZoomDM/Decontaminate/results_part
+!Cosmological-Zoom/MyFirstZoom/ZoomDM/Decontaminate/results_part_wide
+!Cosmological-Zoom/MyFirstZoom/ZoomDM/Decontaminate/results_track
+# never: snapshots, IC binaries, white noise, caches
+Cosmological-Zoom/MyFirstZoom/**/output_*/
+Cosmological-Zoom/MyFirstZoom/**/ics_*/
+Cosmological-Zoom/MyFirstZoom/**/ic_box_*/
+Cosmological-Zoom/MyFirstZoom/**/.ipynb_checkpoints/

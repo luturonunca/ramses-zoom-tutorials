@@ -1,0 +1,133 @@
+
+[0m [0m           __    __     __  __     ______     __     ______      
+[0m [0m          /\ "-./  \   /\ \/\ \   /\  ___\   /\ \   /\  ___\  
+[0m [0m          \ \ \-./\ \  \ \ \_\ \  \ \___  \  \ \ \  \ \ \____ 
+[0m [0m           \ \_\ \ \_\  \ \_____\  \/\_____\  \ \_\  \ \_____\ 
+[0m [0m            \/_/  \/_/   \/_____/   \/_____/   \/_/   \/_____/ 
+[0m
+[0m [0m                                   this is music! version 2.0a
+[0m
+[0m [0mVersion: git rev.: 0d0f8cf, tag: N/A, branch: master
+[0m [0mThis RelWithDebInfo build was compiled at 18:38:23 on Oct 25 2026
+[0m [0mCompiled with GNU C++ version 13.3.0
+[0m [0mOpening log file 'music.conf_log.txt'.
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCPU vendor string                : Intel(R) Core(TM) Ultra 7 155H
+[0m [0mAvailable HW threads / task      : 22 (22 used)
+[0m [0mTotal system memory (phys)       : 31537 Mb
+[0m [0mUsed system memory (phys)        : Max: 137111 Mb, Min: 137111 Mb
+[0m [0mAvailable system memory (phys)   : Max: 4294861721 Mb, Min: 4294861721 Mb
+[0m [0mOS/Kernel version                : Linux version 7.0 build 31
+[0m [0mFFTW version                     : fftw-3.3.10-sse2-avx
+[0m [0mFFTW supports multi-threading    : yes
+[0m [0mFFTW mode                        : FFTW_ESTIMATE
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCosmological parameters are: 
+[0m [0m h        = 0.674           sigma_8  = 0.811           n_s     = 0.965           
+[0m [0m Omega_c  = 0.264582        Omega_b  = 0.049           Omega_m = 0.315           
+[0m [0m Omega_r  = 0               Omega_nu = 0.00141806      ∑m_nu   = 0.06eV
+[0m [0m Omega_DE = 0.685           w_0      = -1              w_a     = 0               
+[0m [0mLinear growth factors: D+_target = 1, D+_start = 0.0125677
+[0m [0m-------------------------------------------------------------------------------
+[0m - Selecting transfer function plug-in 'eisenstein'...
+ [0mFixing PS normalisation from specified sigma8 = 0.811
+[0m [0m . TF supports distinct CDM+baryons : no
+[0m [0m . TF maximum wave number        : 100000 h/Mpc
+[0m [0m- starting at a=0.00990099
+[0m - Selecting region generator plug-in 'convex_hull'...
+ [0mregion point file appears to contain 3 columns
+[0m [0mfilter_hull_faces: L 780->161  U 189->136
+[0m [0mconvex_hull diagnostic: centroid check = PASS  (nfL=161 nfU=136 vol=1.059507e-03)
+[0m [0mRegion center from convex hull centroid determined at	 (0.796049,0.332671,0.318113)
+[0m - Selecting random number generator plug-in 'MUSIC'...
+ [0m    refinement region is 'convex_hull', w/ bounding box
+[0m [0m            left = [0.685409,0.233987,0.215337]
+[0m [0m           right = [0.914382,0.439645,0.413174]
+[0m [0m- Internal refinement bounding box: [202,320]x[203,309]x[206,307]
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Domain will be shifted by (-37, 21, 24)
+
+[0m [0m- Grid structure:
+     Level 7   :   offset = (0    , 0    , 0    )
+                     size = (128  , 128  , 128  )
+     Level 8   :   offset = (42   , 42   , 43   )
+                     size = (92   , 88   , 84   )
+     Level 9   :   offset = (17   , 17   , 17   )
+                     size = (118  , 108  , 102  )
+-------------------------------------------------------------------------------
+[0m [0m- Finest level :
+                   extent =  5761.72 x 5273.44 x 4980.47 h-3 kpc**3
+                 mtotgrid =  1.32288e+13 h-1 M_o
+            particle mass =  1.01769e+07 h-1 M_o
+                       dx =  48.8281 h-1 kpc
+-------------------------------------------------------------------------------
+[0m [0m- Will use levelmin = 8 to compute density field...
+ - Selecting output plug-in 'grafic2'...
+===============================================================================
+[0m [0m   GENERATING WHITE NOISE
+-------------------------------------------------------------------------------
+[0m [0mComputing white noise...
+[0m [0mGenerating random numbers (2) with seed 123456
+[0m [0mGenerating random numbers w/ sample cube size of 32
+[0m [0mGenerating random numbers w/ sample cube size of 32
+[0m [0mGenerating a constrained random number set with seed 23456
+[0m [0m    using coarse mode replacement...
+[0m [0mGenerating random numbers w/ sample cube size of 32
+[0m [0mGenerating a constrained random number set with seed 34567
+[0m [0m    using coarse mode replacement...
+[0m [0m===============================================================================
+[0m [0m   COMPUTING VELOCITIES
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mPerforming noise convolution on level   8
+[0m [0m- Performing kernel convolution on (  256,  256,  256) grid
+[0m [0m- Performing forward FFT...
+[0m [0mPerforming noise convolution on level   9...
+[0m [0mAllocating refinement patch
+[0m [0m   offset=(   99,   96,   97)
+[0m [0m   size  =(  128,  128,  128)
+[0m [0m    margin = 4
+[0m [0m- Performing kernel convolution on (  136,  136,  136) grid
+[0m [0m- Performing forward FFT...
+[0m [0m  .level 9 : corrected patch overlap mean value by -0.000015
+[0m [0m- Top grid mean density is off by 3.81975e-20, correcting...
+[0m [0mThe grafic2 output plug-in wrote the grid data to a partial
+[0m [0m   RAMSES namelist file 'ics_zoom_dm'
+[0m [0m0.029850 of cells on level 8 are refined
+[0m [0m0.001390 of cells on level 7 are refined
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Invoking multi-grid Poisson solver...
+[0m - Converged in 4 steps to 4.34377e-06
+ - Poisson solver took 1.34933s with 22 threads.
+ [0m- Computing 2LPT term....
+[0m [0m- Solving 2LPT Poisson equation
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Invoking multi-grid Poisson solver...
+[0m - Converged in 5 steps to 5.17366e-07
+ - Poisson solver took 1.68807s with 22 threads.
+ [0m   - Performing hybrid Poisson step... (182, 182, 182)
+[0m [0m	 - velocity component 0 : sigma = 0.312731
+[0m [0m	 - velocity component 0 : mean = -0.426898
+[0m [0m- Top grid mean density is off by 8.63974e-20, correcting...
+[0m [0m	 - velocity component 1 : sigma = 0.357819
+[0m [0m	 - velocity component 1 : mean = 0.520297
+[0m [0m- Top grid mean density is off by 4.92507e-19, correcting...
+[0m [0m	 - velocity component 2 : sigma = 0.298575
+[0m [0m	 - velocity component 2 : mean = -1.3348
+[0m [0m- Top grid mean density is off by 2.8301e-19, correcting...
+[0m [0m===============================================================================
+[0m [0m   COMPUTING DARK MATTER DISPLACEMENTS
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m   - Performing hybrid Poisson step... (182, 182, 182)
+[0m [0m	 - max. x-displacement of HR particles is 1.302168 [mean dx]
+[0m [0m- Top grid mean density is off by 1.13985e-21, correcting...
+[0m [0m	 - max. y-displacement of HR particles is 1.371944 [mean dx]
+[0m [0m- Top grid mean density is off by 1.4848e-21, correcting...
+[0m [0m	 - max. z-displacement of HR particles is 1.951504 [mean dx]
+[0m [0m- Top grid mean density is off by -2.16238e-22, correcting...
+[0m [0m===============================================================================
+[0m [0m - Wrote output file 'ics_zoom_dm'
+     using plugin 'grafic2'...
+ - Done!
+[0m
+[0m

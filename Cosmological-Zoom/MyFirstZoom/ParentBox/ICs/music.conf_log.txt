@@ -1,0 +1,92 @@
+
+[0m [0m           __    __     __  __     ______     __     ______      
+[0m [0m          /\ "-./  \   /\ \/\ \   /\  ___\   /\ \   /\  ___\  
+[0m [0m          \ \ \-./\ \  \ \ \_\ \  \ \___  \  \ \ \  \ \ \____ 
+[0m [0m           \ \_\ \ \_\  \ \_____\  \/\_____\  \ \_\  \ \_____\ 
+[0m [0m            \/_/  \/_/   \/_____/   \/_____/   \/_/   \/_____/ 
+[0m
+[0m [0m                                   this is music! version 2.0a
+[0m
+[0m [0mVersion: git rev.: 967651b, tag: N/A, branch: master
+[0m [0mThis RelWithDebInfo build was compiled at 12:23:46 on Oct 25 2026
+[0m [0mCompiled with GNU C++ version 13.3.0
+[0m [0mOpening log file 'music.conf_log.txt'.
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCPU vendor string                : Intel(R) Core(TM) Ultra 7 155H
+[0m [0mAvailable HW threads / task      : 22 (22 used)
+[0m [0mTotal system memory (phys)       : 31537 Mb
+[0m [0mUsed system memory (phys)        : Max: 135065 Mb, Min: 135065 Mb
+[0m [0mAvailable system memory (phys)   : Max: 4294863767 Mb, Min: 4294863767 Mb
+[0m [0mOS/Kernel version                : Linux version 7.0 build 31
+[0m [0mFFTW version                     : fftw-3.3.10-sse2-avx
+[0m [0mFFTW supports multi-threading    : yes
+[0m [0mFFTW mode                        : FFTW_ESTIMATE
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCosmological parameters are: 
+[0m [0m h        = 0.674           sigma_8  = 0.811           n_s     = 0.965           
+[0m [0m Omega_c  = 0.264582        Omega_b  = 0.049           Omega_m = 0.315           
+[0m [0m Omega_r  = 0               Omega_nu = 0.00141806      ∑m_nu   = 0.06eV
+[0m [0m Omega_DE = 0.685           w_0      = -1              w_a     = 0               
+[0m [0mLinear growth factors: D+_target = 1, D+_start = 0.0125677
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mFixing PS normalisation from specified sigma8 = 0.811
+[0m [0m . TF supports distinct CDM+baryons : no
+[0m [0m . TF maximum wave number        : 100000 h/Mpc
+[0m [0m- starting at a=0.00990099
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Grid structure:
+     Level 7   :   offset = (0    , 0    , 0    )
+                     size = (128  , 128  , 128  )
+-------------------------------------------------------------------------------
+[0m [0m- Finest level :
+                   extent =  25 x 25 x 25 h-3 Mpc**3
+                 mtotgrid =  1.36592e+15 h-1 M_o
+            particle mass =  6.5132e+08 h-1 M_o
+                       dx =  0.195312 h-1 Mpc
+-------------------------------------------------------------------------------
+[0m [0m===============================================================================
+[0m [0m   GENERATING WHITE NOISE
+-------------------------------------------------------------------------------
+[0m [0mComputing white noise...
+[0m [0mGenerating random numbers (2) with seed 123456
+[0m [0mGenerating random numbers w/ sample cube size of 32
+[0m [0m===============================================================================
+[0m [0m   COMPUTING VELOCITIES
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mPerforming noise convolution on level   7
+[0m [0m- Performing kernel convolution on (  128,  128,  128) grid
+[0m [0m- Performing forward FFT...
+[0m [0m- Top grid mean density is off by -4.39522e-20, correcting...
+[0m [0mThe grafic2 output plug-in wrote the grid data to a partial
+[0m [0m   RAMSES namelist file 'ic_box_dm'
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m - Invoking unigrid FFT Poisson solver...
+[0m [0m- Computing 2LPT term....
+[0m [0m- Solving 2LPT Poisson equation
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m - Invoking unigrid FFT Poisson solver...
+[0m [0m	 - velocity component 0 : sigma = 0.621965
+[0m [0m	 - velocity component 0 : mean = -6.61797e-16
+[0m [0m- Top grid mean density is off by -3.38813e-18, correcting...
+[0m [0m	 - velocity component 1 : sigma = 0.685051
+[0m [0m	 - velocity component 1 : mean = 1.57908e-17
+[0m [0m- Top grid mean density is off by -3.14841e-19, correcting...
+[0m [0m	 - velocity component 2 : sigma = 0.863058
+[0m [0m	 - velocity component 2 : mean = 8.55808e-19
+[0m [0m- Top grid mean density is off by 6.43289e-20, correcting...
+[0m [0m===============================================================================
+[0m [0m   COMPUTING DARK MATTER DISPLACEMENTS
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m	 - max. x-displacement of HR particles is 0.547457 [mean dx]
+[0m [0m- Top grid mean density is off by 6.18731e-21, correcting...
+[0m [0m	 - max. y-displacement of HR particles is 0.578116 [mean dx]
+[0m [0m- Top grid mean density is off by -5.96966e-22, correcting...
+[0m [0m	 - max. z-displacement of HR particles is 0.670489 [mean dx]
+[0m [0m- Top grid mean density is off by -5.32821e-23, correcting...
+[0m [0m===============================================================================
+[0m [0m - Wrote output file 'ic_box_dm'
+     using plugin 'grafic2'...
+ - Done!
+[0m
+[0m

@@ -1,0 +1,157 @@
+
+[0m [0m           __    __     __  __     ______     __     ______      
+[0m [0m          /\ "-./  \   /\ \/\ \   /\  ___\   /\ \   /\  ___\  
+[0m [0m          \ \ \-./\ \  \ \ \_\ \  \ \___  \  \ \ \  \ \ \____ 
+[0m [0m           \ \_\ \ \_\  \ \_____\  \/\_____\  \ \_\  \ \_____\ 
+[0m [0m            \/_/  \/_/   \/_____/   \/_____/   \/_/   \/_____/ 
+[0m
+[0m [0m                                   this is music! version 2.0a
+[0m
+[0m [0mVersion: git rev.: 0d0f8cf, tag: N/A, branch: master
+[0m [0mThis RelWithDebInfo build was compiled at 18:38:23 on Oct 25 2026
+[0m [0mCompiled with GNU C++ version 13.3.0
+[0m [0mOpening log file 'music.conf_log.txt'.
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCPU vendor string                : Intel(R) Core(TM) Ultra 7 155H
+[0m [0mAvailable HW threads / task      : 22 (22 used)
+[0m [0mTotal system memory (phys)       : 31537 Mb
+[0m [0mUsed system memory (phys)        : Max: 147435 Mb, Min: 147435 Mb
+[0m [0mAvailable system memory (phys)   : Max: 4294851398 Mb, Min: 4294851398 Mb
+[0m [0mOS/Kernel version                : Linux version 7.0 build 31
+[0m [0mFFTW version                     : fftw-3.3.10-sse2-avx
+[0m [0mFFTW supports multi-threading    : yes
+[0m [0mFFTW mode                        : FFTW_ESTIMATE
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCosmological parameters are: 
+[0m [0m h        = 0.674           sigma_8  = 0.811           n_s     = 0.965           
+[0m [0m Omega_c  = 0.264582        Omega_b  = 0.049           Omega_m = 0.315           
+[0m [0m Omega_r  = 0               Omega_nu = 0.00141806      ∑m_nu   = 0.06eV
+[0m [0m Omega_DE = 0.685           w_0      = -1              w_a     = 0               
+[0m [0mLinear growth factors: D+_target = 1, D+_start = 0.0125677
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mFixing PS normalisation from specified sigma8 = 0.811
+[0m [0m . TF supports distinct CDM+baryons : no
+[0m [0m . TF maximum wave number        : 100000 h/Mpc
+[0m [0m- starting at a=0.00990099
+[0m [0mregion point file appears to contain 3 columns
+[0m [0mfilter_hull_faces: L 1163->513  U 18753->521
+[0m [0mconvex_hull diagnostic: centroid check = PASS  (nfL=513 nfU=521 vol=1.484762e-03)
+[0m [0mRegion center from convex hull centroid determined at	 (0.798991,0.334558,0.316912)
+[0m [0m    refinement region is 'convex_hull', w/ bounding box
+[0m [0m            left = [0.682043,0.232206,0.211791]
+[0m [0m           right = [0.917677,0.443259,0.416421]
+[0m [0m- Internal refinement bounding box: [201,321]x[202,310]x[204,309]
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Domain will be shifted by (-37, 21, 24)
+
+[0m [0m- Grid structure:
+     Level 7   :   offset = (0    , 0    , 0    )
+                     size = (128  , 128  , 128  )
+     Level 8   :   offset = (42   , 42   , 43   )
+                     size = (94   , 88   , 86   )
+     Level 9   :   offset = (16   , 17   , 16   )
+                     size = (122  , 108  , 106  )
+-------------------------------------------------------------------------------
+[0m [0m- Finest level :
+                   extent =  5957.03 x 5273.44 x 5175.78 h-3 kpc**3
+                 mtotgrid =  1.42136e+13 h-1 M_o
+            particle mass =  8.59381e+06 h-1 M_o
+         baryon mass/cell =  1.58307e+06 h-1 M_o
+                       dx =  48.8281 h-1 kpc
+-------------------------------------------------------------------------------
+[0m [0m- Will use levelmin = 8 to compute density field...
+===============================================================================
+[0m [0m   GENERATING WHITE NOISE
+-------------------------------------------------------------------------------
+[0m [0mComputing white noise...
+[0m [0mGenerating random numbers (2) with seed 123456
+[0m [0mGenerating random numbers w/ sample cube size of 32
+[0m [0mGenerating random numbers w/ sample cube size of 32
+[0m [0mGenerating a constrained random number set with seed 23456
+[0m [0m    using coarse mode replacement...
+[0m [0mGenerating random numbers w/ sample cube size of 32
+[0m [0mGenerating a constrained random number set with seed 34567
+[0m [0m    using coarse mode replacement...
+[0m [0m===============================================================================
+[0m [0m   COMPUTING VELOCITIES
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mPerforming noise convolution on level   8
+[0m [0m- Performing kernel convolution on (  256,  256,  256) grid
+[0m [0m- Performing forward FFT...
+[0m [0mPerforming noise convolution on level   9...
+[0m [0mAllocating refinement patch
+[0m [0m   offset=(   98,   95,   96)
+[0m [0m   size  =(  132,  132,  132)
+[0m [0m    margin = 4
+[0m [0m- Performing kernel convolution on (  140,  140,  140) grid
+[0m [0m- Performing forward FFT...
+[0m [0m  .level 9 : corrected patch overlap mean value by -0.000056
+[0m [0m- Top grid mean density is off by 3.86326e-20, correcting...
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Invoking multi-grid Poisson solver...
+[0m [0m- Computing 2LPT term....
+[0m [0m- Solving 2LPT Poisson equation
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Invoking multi-grid Poisson solver...
+[0m [0m   - Performing hybrid Poisson step... (186, 186, 186)
+[0m [0m	 - velocity component 0 : sigma = 0.321047
+[0m [0m	 - velocity component 0 : mean = -0.422423
+[0m [0m- Top grid mean density is off by 4.65868e-20, correcting...
+[0m [0m	 - velocity component 1 : sigma = 0.361639
+[0m [0m	 - velocity component 1 : mean = 0.518034
+[0m [0m- Top grid mean density is off by -3.87985e-19, correcting...
+[0m [0m	 - velocity component 2 : sigma = 0.305887
+[0m [0m	 - velocity component 2 : mean = -1.33788
+[0m [0m- Top grid mean density is off by -4.54143e-19, correcting...
+[0m [0m===============================================================================
+[0m [0m   COMPUTING DARK MATTER DISPLACEMENTS
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mPerforming noise convolution on level   8
+[0m [0m- Performing kernel convolution on (  256,  256,  256) grid
+[0m [0m- Performing forward FFT...
+[0m [0mPerforming noise convolution on level   9...
+[0m [0mAllocating refinement patch
+[0m [0m   offset=(   98,   95,   96)
+[0m [0m   size  =(  132,  132,  132)
+[0m [0m    margin = 4
+[0m [0m- Performing kernel convolution on (  140,  140,  140) grid
+[0m [0m- Performing forward FFT...
+[0m [0m  .level 9 : corrected patch overlap mean value by -0.000056
+[0m [0m- Top grid mean density is off by 3.86624e-20, correcting...
+[0m [0mThe grafic2 output plug-in wrote the grid data to a partial
+[0m [0m   RAMSES namelist file 'ics_zoom_hydro'
+[0m [0m0.039815 of cells on level 8 are refined
+[0m [0m0.001887 of cells on level 7 are refined
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Invoking multi-grid Poisson solver...
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Invoking multi-grid Poisson solver...
+[0m [0m   - Performing hybrid Poisson step... (186, 186, 186)
+[0m [0m	 - max. x-displacement of HR particles is 1.301079 [mean dx]
+[0m [0m- Top grid mean density is off by 2.6065e-21, correcting...
+[0m [0m	 - max. y-displacement of HR particles is 1.360176 [mean dx]
+[0m [0m- Top grid mean density is off by -1.06923e-21, correcting...
+[0m [0m	 - max. z-displacement of HR particles is 1.974494 [mean dx]
+[0m [0m- Top grid mean density is off by 5.48614e-22, correcting...
+[0m [0m===============================================================================
+[0m [0m   COMPUTING BARYON DENSITY
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mPerforming noise convolution on level   8
+[0m [0m- Performing kernel convolution on (  256,  256,  256) grid
+[0m [0m- Performing forward FFT...
+[0m [0mPerforming noise convolution on level   9...
+[0m [0mAllocating refinement patch
+[0m [0m   offset=(   98,   95,   96)
+[0m [0m   size  =(  132,  132,  132)
+[0m [0m    margin = 4
+[0m [0m- Performing kernel convolution on (  140,  140,  140) grid
+[0m [0m- Performing forward FFT...
+[0m [0m  .level 9 : corrected patch overlap mean value by -0.000056
+[0m [0m- Top grid mean density is off by 3.85946e-20, correcting...
+[0m [0m===============================================================================
+[0m [0m - Wrote output file 'ics_zoom_hydro'
+     using plugin 'grafic2'...
+ - Done!
+[0m
+[0m

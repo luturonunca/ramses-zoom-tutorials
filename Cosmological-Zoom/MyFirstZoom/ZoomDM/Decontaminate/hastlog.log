@@ -1,0 +1,1190 @@
+     ___           ___           ___                  
+    /\  \         /\  \         /\__\                 
+    \:\  \       /::\  \       /:/ _/_         ___    
+     \:\  \     /:/\:\  \     /:/ /\  \       /\__\   
+ ___ /::\  \   /:/ /::\  \   /:/ /::\  \     /:/  /   
+/\  /:/\:\__\ /:/_/:/\:\__\ /:/_/:/\:\__\   /:/__/    
+\:\/:/  \/__/ \:\/:/  \/__/ \:\/:/ /:/  /  /::\  \    
+ \::/__/       \::/__/       \::/ /:/  /  /:/\:\  \   
+  \:\  \        \:\  \        \/_/:/  /   \/__\:\  \  
+   \:\__\        \:\__\         /:/  /         \:\__\ 
+    \/__/         \/__/         \/__/           \/__/ 
+| ------------------------------------------------------------
+| HAlo Selection Tools - Version 0.5
+| ------------------------------------------------------------
+| HAST - decontaminate it
+| ------------------------------------------------------------
+| Search radius     = 5.00*R200
+| Traceback radius  = 2.00*R200
+| Halo cut off mass = 1.00e+03 Msol
+| Halo min massfrac = 1.00e-01 Msol
+| Point shift       = [-0.2890625  0.1640625  0.1875   ]
+| ------------------------------------------------------------
+../Run/output_00001
+| snap 41 | ../Run/output_00041/clump_00041.txt?????
+| snap 41 | ------------------------------------------------------------
+| snap 41 | Selecting halo ranked 1 with 85587 cells
+| snap 41 | Closest halo coordinates  = [16415.03519,21191.70536,12821.59987] kpc
+| snap 41 | R200                      = 391.7640 kpc
+| snap 41 | M200                      = 1.48e+12 Msol
+| snap 41 | coords                    = [16415.03519147 21191.70535858 12821.59986686] kpc
+| snap 41 | ------------------------------------------------------------
+| snap 41 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 41 | R200                      = 391.8 kpc physical / 391.5 kpc comoving
+| snap 41 | M200                      = 2.00e+12 Msol
+| snap 41 | M_clump                   = 1.48e+12 Msol
+| snap 41 | position                  = [16415.0352,21191.7054,12821.5999] kpc
+| snap 41 | ------------------------------------------------------------
+| snap 41 | npart_tot(r<R200)         = 132047
+| snap 41 | npart_tot(r<2.0*R200)     = 164590
+| snap 41 | npart_coarse(r<2.0*R200)  = 62
+| snap 41 | npart_coarse_all          = 62
+| snap 41 | contamination(r<2.0*R200) = 0.3%
+| snap 41 | npart_zoom                = 220352
+| snap 41 | npart_tot                 = 2436379
+| snap 41 | Rexclude contaminants     = 0
+| snap 41 | Broad contaminants        = 62
+| snap 41 | r_min coarse part/R200    = 1.390e-01
+| snap 41 | r_mean coarse part/R200   = 1.122e+00
+| snap 41 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 41 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 41 | Volume increase         -> 0.00%
+| snap 40 | ../Run/output_00040/clump_00040.txt?????
+| snap 40 | ------------------------------------------------------------
+| snap 40 |    | npart tree               =   2436379 ------------------
+| snap 40 |    | Previous halo population =       1 --------------------
+| snap 40 |    | Cutoff mass              = 1.48e+11 -------------------
+| snap 40 |    |         halo       0 | idf=76.01% | m=1.53e+12 Msol
+| snap 40 |    |    -->  halo       0 selected
+| snap 40 | ------------------------------------------------------------
+| snap 40 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 40 | R200                      = 380.5 kpc physical / 390.2 kpc comoving
+| snap 40 | M200                      = 1.98e+12 Msol
+| snap 40 | M_clump                   = 1.53e+12 Msol
+| snap 40 | position                  = [16030.5993,20612.9855,12565.8065] kpc
+| snap 40 | ------------------------------------------------------------
+| snap 40 | npart_tot(r<R200)         = 130806
+| snap 40 | npart_tot(r<2.0*R200)     = 163739
+| snap 40 | npart_coarse(r<2.0*R200)  = 61
+| snap 40 | npart_coarse_all          = 123
+| snap 40 | contamination(r<2.0*R200) = 0.3%
+| snap 40 | npart_zoom                = 220352
+| snap 40 | npart_tot                 = 2436379
+| snap 40 | Rexclude contaminants     = 0
+| snap 40 | Broad contaminants        = 62
+| snap 40 | r_min coarse part/R200    = 1.336e-01
+| snap 40 | r_mean coarse part/R200   = 1.195e+00
+| snap 40 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 40 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 40 | Volume increase         -> 0.00%
+| snap 39 | ../Run/output_00039/clump_00039.txt?????
+| snap 39 | ------------------------------------------------------------
+| snap 39 |    | npart tree               =   2436379 ------------------
+| snap 39 |    | Previous halo population =       1 --------------------
+| snap 39 |    | Cutoff mass              = 1.53e+11 -------------------
+| snap 39 |    |         halo       0 | idf=75.27% | m=1.47e+12 Msol
+| snap 39 |    |    -->  halo       0 selected
+| snap 39 | ------------------------------------------------------------
+| snap 39 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 39 | R200                      = 369.7 kpc physical / 389.0 kpc comoving
+| snap 39 | M200                      = 1.96e+12 Msol
+| snap 39 | M_clump                   = 1.47e+12 Msol
+| snap 39 | position                  = [15659.2439,20053.4153,12313.8038] kpc
+| snap 39 | ------------------------------------------------------------
+| snap 39 | npart_tot(r<R200)         = 129647
+| snap 39 | npart_tot(r<2.0*R200)     = 162825
+| snap 39 | npart_coarse(r<2.0*R200)  = 59
+| snap 39 | npart_coarse_all          = 182
+| snap 39 | contamination(r<2.0*R200) = 0.3%
+| snap 39 | npart_zoom                = 220352
+| snap 39 | npart_tot                 = 2436379
+| snap 39 | Rexclude contaminants     = 0
+| snap 39 | Broad contaminants        = 62
+| snap 39 | r_min coarse part/R200    = 1.645e-01
+| snap 39 | r_mean coarse part/R200   = 1.253e+00
+| snap 39 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 39 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 39 | Volume increase         -> 0.00%
+| snap 38 | ../Run/output_00038/clump_00038.txt?????
+| snap 38 | ------------------------------------------------------------
+| snap 38 |    | npart tree               =   2436379 ------------------
+| snap 38 |    | Previous halo population =       1 --------------------
+| snap 38 |    | Cutoff mass              = 1.47e+11 -------------------
+| snap 38 |    |         halo       0 | idf=73.59% | m=1.49e+12 Msol
+| snap 38 |    |    -->  halo       0 selected
+| snap 38 | ------------------------------------------------------------
+| snap 38 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 38 | R200                      = 359.1 kpc physical / 387.9 kpc comoving
+| snap 38 | M200                      = 1.94e+12 Msol
+| snap 38 | M_clump                   = 1.49e+12 Msol
+| snap 38 | position                  = [15293.8661,19501.8887,12067.7132] kpc
+| snap 38 | ------------------------------------------------------------
+| snap 38 | npart_tot(r<R200)         = 128546
+| snap 38 | npart_tot(r<2.0*R200)     = 161671
+| snap 38 | npart_coarse(r<2.0*R200)  = 57
+| snap 38 | npart_coarse_all          = 239
+| snap 38 | contamination(r<2.0*R200) = 0.3%
+| snap 38 | npart_zoom                = 220352
+| snap 38 | npart_tot                 = 2436379
+| snap 38 | Rexclude contaminants     = 0
+| snap 38 | Broad contaminants        = 62
+| snap 38 | r_min coarse part/R200    = 2.804e-01
+| snap 38 | r_mean coarse part/R200   = 1.301e+00
+| snap 38 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 38 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 38 | Volume increase         -> 0.00%
+| snap 37 | ../Run/output_00037/clump_00037.txt?????
+| snap 37 | ------------------------------------------------------------
+| snap 37 |    | npart tree               =   2436379 ------------------
+| snap 37 |    | Previous halo population =       1 --------------------
+| snap 37 |    | Cutoff mass              = 1.49e+11 -------------------
+| snap 37 |    |         halo       0 | idf=70.47% | m=1.44e+12 Msol
+| snap 37 |    |    -->  halo       0 selected
+| snap 37 | ------------------------------------------------------------
+| snap 37 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 37 | R200                      = 347.4 kpc physical / 385.9 kpc comoving
+| snap 37 | M200                      = 1.91e+12 Msol
+| snap 37 | M_clump                   = 1.44e+12 Msol
+| snap 37 | position                  = [14912.3261,18930.1379,11810.8711] kpc
+| snap 37 | ------------------------------------------------------------
+| snap 37 | npart_tot(r<R200)         = 126583
+| snap 37 | npart_tot(r<2.0*R200)     = 160509
+| snap 37 | npart_coarse(r<2.0*R200)  = 55
+| snap 37 | npart_coarse_all          = 294
+| snap 37 | contamination(r<2.0*R200) = 0.3%
+| snap 37 | npart_zoom                = 220352
+| snap 37 | npart_tot                 = 2436379
+| snap 37 | Rexclude contaminants     = 0
+| snap 37 | Broad contaminants        = 62
+| snap 37 | r_min coarse part/R200    = 1.769e-01
+| snap 37 | r_mean coarse part/R200   = 1.346e+00
+| snap 37 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 37 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 37 | Volume increase         -> 0.00%
+| snap 36 | ../Run/output_00036/clump_00036.txt?????
+| snap 36 | ------------------------------------------------------------
+| snap 36 |    | npart tree               =   2436379 ------------------
+| snap 36 |    | Previous halo population =       1 --------------------
+| snap 36 |    | Cutoff mass              = 1.44e+11 -------------------
+| snap 36 |    |         halo       0 | idf=69.03% | m=1.42e+12 Msol
+| snap 36 |    |    -->  halo       0 selected
+| snap 36 | ------------------------------------------------------------
+| snap 36 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 36 | R200                      = 336.6 kpc physical / 384.6 kpc comoving
+| snap 36 | M200                      = 1.90e+12 Msol
+| snap 36 | M_clump                   = 1.42e+12 Msol
+| snap 36 | position                  = [14543.4243,18365.5948,11557.9379] kpc
+| snap 36 | ------------------------------------------------------------
+| snap 36 | npart_tot(r<R200)         = 125316
+| snap 36 | npart_tot(r<2.0*R200)     = 159306
+| snap 36 | npart_coarse(r<2.0*R200)  = 48
+| snap 36 | npart_coarse_all          = 342
+| snap 36 | contamination(r<2.0*R200) = 0.2%
+| snap 36 | npart_zoom                = 220352
+| snap 36 | npart_tot                 = 2436379
+| snap 36 | Rexclude contaminants     = 0
+| snap 36 | Broad contaminants        = 62
+| snap 36 | r_min coarse part/R200    = 3.214e-01
+| snap 36 | r_mean coarse part/R200   = 1.313e+00
+| snap 36 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 36 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 36 | Volume increase         -> 0.00%
+| snap 35 | ../Run/output_00035/clump_00035.txt?????
+| snap 35 | ------------------------------------------------------------
+| snap 35 |    | npart tree               =   2436379 ------------------
+| snap 35 |    | Previous halo population =       1 --------------------
+| snap 35 |    | Cutoff mass              = 1.42e+11 -------------------
+| snap 35 |    |         halo       0 | idf=65.11% | m=1.31e+12 Msol
+| snap 35 |    |    -->  halo       0 selected
+| snap 35 | ------------------------------------------------------------
+| snap 35 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 35 | R200                      = 326.1 kpc physical / 383.3 kpc comoving
+| snap 35 | M200                      = 1.88e+12 Msol
+| snap 35 | M_clump                   = 1.31e+12 Msol
+| snap 35 | position                  = [14174.0284,17813.7672,11307.9929] kpc
+| snap 35 | ------------------------------------------------------------
+| snap 35 | npart_tot(r<R200)         = 124016
+| snap 35 | npart_tot(r<2.0*R200)     = 157119
+| snap 35 | npart_coarse(r<2.0*R200)  = 44
+| snap 35 | npart_coarse_all          = 386
+| snap 35 | contamination(r<2.0*R200) = 0.2%
+| snap 35 | npart_zoom                = 220352
+| snap 35 | npart_tot                 = 2436379
+| snap 35 | Rexclude contaminants     = 0
+| snap 35 | Broad contaminants        = 62
+| snap 35 | r_min coarse part/R200    = 3.238e-01
+| snap 35 | r_mean coarse part/R200   = 1.300e+00
+| snap 35 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 35 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 35 | Volume increase         -> 0.00%
+| snap 34 | ../Run/output_00034/clump_00034.txt?????
+| snap 34 | ------------------------------------------------------------
+| snap 34 |    | npart tree               =   2436379 ------------------
+| snap 34 |    | Previous halo population =       2 --------------------
+| snap 34 |    | Cutoff mass              = 1.31e+11 -------------------
+| snap 34 |    |         halo       1 | idf= 5.07% | m=1.36e+11 Msol
+| snap 34 |    |         halo       0 | idf=63.29% | m=1.33e+12 Msol
+| snap 34 |    |    -->  halo       0 selected
+| snap 34 | ------------------------------------------------------------
+| snap 34 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 34 | R200                      = 315.1 kpc physical / 381.8 kpc comoving
+| snap 34 | M200                      = 1.85e+12 Msol
+| snap 34 | M_clump                   = 1.33e+12 Msol
+| snap 34 | position                  = [13791.2626,17251.0446,11049.5526] kpc
+| snap 34 | ------------------------------------------------------------
+| snap 34 | npart_tot(r<R200)         = 122519
+| snap 34 | npart_tot(r<2.0*R200)     = 154512
+| snap 34 | npart_coarse(r<2.0*R200)  = 35
+| snap 34 | npart_coarse_all          = 421
+| snap 34 | contamination(r<2.0*R200) = 0.2%
+| snap 34 | npart_zoom                = 220352
+| snap 34 | npart_tot                 = 2436379
+| snap 34 | Rexclude contaminants     = 0
+| snap 34 | Broad contaminants        = 62
+| snap 34 | r_min coarse part/R200    = 2.183e-01
+| snap 34 | r_mean coarse part/R200   = 1.148e+00
+| snap 34 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 34 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 34 | Volume increase         -> 0.00%
+| snap 33 | ../Run/output_00033/clump_00033.txt?????
+| snap 33 | ------------------------------------------------------------
+| snap 33 |    | npart tree               =   2436379 ------------------
+| snap 33 |    | Previous halo population =       2 --------------------
+| snap 33 |    | Cutoff mass              = 1.33e+11 -------------------
+| snap 33 |    |         halo       1 | idf=13.70% | m=2.30e+11 Msol
+| snap 33 |    |         halo       0 | idf=61.28% | m=1.23e+12 Msol
+| snap 33 |    |    -->  halo       0 selected
+| snap 33 | ------------------------------------------------------------
+| snap 33 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 33 | R200                      = 304.5 kpc physical / 380.4 kpc comoving
+| snap 33 | M200                      = 1.83e+12 Msol
+| snap 33 | M_clump                   = 1.23e+12 Msol
+| snap 33 | position                  = [13410.8671,16693.9805,10792.4114] kpc
+| snap 33 | ------------------------------------------------------------
+| snap 33 | npart_tot(r<R200)         = 121196
+| snap 33 | npart_tot(r<2.0*R200)     = 153418
+| snap 33 | npart_coarse(r<2.0*R200)  = 34
+| snap 33 | npart_coarse_all          = 455
+| snap 33 | contamination(r<2.0*R200) = 0.2%
+| snap 33 | npart_zoom                = 220352
+| snap 33 | npart_tot                 = 2436379
+| snap 33 | Rexclude contaminants     = 0
+| snap 33 | Broad contaminants        = 62
+| snap 33 | r_min coarse part/R200    = 1.232e-01
+| snap 33 | r_mean coarse part/R200   = 1.143e+00
+| snap 33 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 33 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 33 | Volume increase         -> 0.00%
+| snap 32 | ../Run/output_00032/clump_00032.txt?????
+| snap 32 | ------------------------------------------------------------
+| snap 32 |    | npart tree               =   2436379 ------------------
+| snap 32 |    | Previous halo population =       1 --------------------
+| snap 32 |    | Cutoff mass              = 1.23e+11 -------------------
+| snap 32 |    |         halo       0 | idf=61.79% | m=1.36e+12 Msol
+| snap 32 |    |    -->  halo       0 selected
+| snap 32 | ------------------------------------------------------------
+| snap 32 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 32 | R200                      = 294.1 kpc physical / 379.4 kpc comoving
+| snap 32 | M200                      = 1.82e+12 Msol
+| snap 32 | M_clump                   = 1.36e+12 Msol
+| snap 32 | position                  = [13027.5590,16132.3265,10533.3713] kpc
+| snap 32 | ------------------------------------------------------------
+| snap 32 | npart_tot(r<R200)         = 120202
+| snap 32 | npart_tot(r<2.0*R200)     = 152345
+| snap 32 | npart_coarse(r<2.0*R200)  = 28
+| snap 32 | npart_coarse_all          = 483
+| snap 32 | contamination(r<2.0*R200) = 0.1%
+| snap 32 | npart_zoom                = 220352
+| snap 32 | npart_tot                 = 2436379
+| snap 32 | Rexclude contaminants     = 0
+| snap 32 | Broad contaminants        = 62
+| snap 32 | r_min coarse part/R200    = 1.627e-01
+| snap 32 | r_mean coarse part/R200   = 1.005e+00
+| snap 32 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 32 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 32 | Volume increase         -> 0.00%
+| snap 31 | ../Run/output_00031/clump_00031.txt?????
+| snap 31 | ------------------------------------------------------------
+| snap 31 |    | npart tree               =   2436379 ------------------
+| snap 31 |    | Previous halo population =       1 --------------------
+| snap 31 |    | Cutoff mass              = 1.36e+11 -------------------
+| snap 31 |    |         halo       0 | idf=58.22% | m=1.19e+12 Msol
+| snap 31 |    |    -->  halo       0 selected
+| snap 31 | ------------------------------------------------------------
+| snap 31 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 31 | R200                      = 283.8 kpc physical / 378.1 kpc comoving
+| snap 31 | M200                      = 1.80e+12 Msol
+| snap 31 | M_clump                   = 1.19e+12 Msol
+| snap 31 | position                  = [12645.5932,15581.8131,10275.8418] kpc
+| snap 31 | ------------------------------------------------------------
+| snap 31 | npart_tot(r<R200)         = 118989
+| snap 31 | npart_tot(r<2.0*R200)     = 150868
+| snap 31 | npart_coarse(r<2.0*R200)  = 23
+| snap 31 | npart_coarse_all          = 506
+| snap 31 | contamination(r<2.0*R200) = 0.1%
+| snap 31 | npart_zoom                = 220352
+| snap 31 | npart_tot                 = 2436379
+| snap 31 | Rexclude contaminants     = 0
+| snap 31 | Broad contaminants        = 62
+| snap 31 | r_min coarse part/R200    = 2.768e-01
+| snap 31 | r_mean coarse part/R200   = 8.749e-01
+| snap 31 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 31 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 31 | Volume increase         -> 0.00%
+| snap 30 | ../Run/output_00030/clump_00030.txt?????
+| snap 30 | ------------------------------------------------------------
+| snap 30 |    | npart tree               =   2436379 ------------------
+| snap 30 |    | Previous halo population =       1 --------------------
+| snap 30 |    | Cutoff mass              = 1.19e+11 -------------------
+| snap 30 |    |         halo       0 | idf=55.64% | m=1.22e+12 Msol
+| snap 30 |    |    -->  halo       0 selected
+| snap 30 | ------------------------------------------------------------
+| snap 30 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 30 | R200                      = 273.6 kpc physical / 377.3 kpc comoving
+| snap 30 | M200                      = 1.79e+12 Msol
+| snap 30 | M_clump                   = 1.22e+12 Msol
+| snap 30 | position                  = [12252.9250,15016.0177,10013.5554] kpc
+| snap 30 | ------------------------------------------------------------
+| snap 30 | npart_tot(r<R200)         = 118281
+| snap 30 | npart_tot(r<2.0*R200)     = 149335
+| snap 30 | npart_coarse(r<2.0*R200)  = 22
+| snap 30 | npart_coarse_all          = 528
+| snap 30 | contamination(r<2.0*R200) = 0.1%
+| snap 30 | npart_zoom                = 220352
+| snap 30 | npart_tot                 = 2436379
+| snap 30 | Rexclude contaminants     = 0
+| snap 30 | Broad contaminants        = 62
+| snap 30 | r_min coarse part/R200    = 2.934e-01
+| snap 30 | r_mean coarse part/R200   = 8.693e-01
+| snap 30 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 30 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 30 | Volume increase         -> 0.00%
+| snap 29 | ../Run/output_00029/clump_00029.txt?????
+| snap 29 | ------------------------------------------------------------
+| snap 29 |    | npart tree               =   2436379 ------------------
+| snap 29 |    | Previous halo population =       2 --------------------
+| snap 29 |    | Cutoff mass              = 1.22e+11 -------------------
+| snap 29 |    |         halo       1 | idf=39.30% | m=5.69e+11 Msol
+| snap 29 |    |         halo       0 | idf=45.57% | m=6.54e+11 Msol
+| snap 29 |    |    -->  halo       0 selected
+| snap 29 | ------------------------------------------------------------
+| snap 29 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 29 | R200                      = 264.7 kpc physical / 377.9 kpc comoving
+| snap 29 | M200                      = 1.80e+12 Msol
+| snap 29 | M_clump                   = 6.54e+11 Msol
+| snap 29 | position                  = [11870.4093,14465.2319,9748.5988] kpc
+| snap 29 | ------------------------------------------------------------
+| snap 29 | npart_tot(r<R200)         = 118868
+| snap 29 | npart_tot(r<2.0*R200)     = 147417
+| snap 29 | npart_coarse(r<2.0*R200)  = 21
+| snap 29 | npart_coarse_all          = 549
+| snap 29 | contamination(r<2.0*R200) = 0.1%
+| snap 29 | npart_zoom                = 220352
+| snap 29 | npart_tot                 = 2436379
+| snap 29 | Rexclude contaminants     = 0
+| snap 29 | Broad contaminants        = 62
+| snap 29 | r_min coarse part/R200    = 2.081e-01
+| snap 29 | r_mean coarse part/R200   = 9.034e-01
+| snap 29 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 29 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 29 | Volume increase         -> 0.00%
+| snap 28 | ../Run/output_00028/clump_00028.txt?????
+| snap 28 | ------------------------------------------------------------
+| snap 28 |    | npart tree               =   2436379 ------------------
+| snap 28 |    | Previous halo population =       4 --------------------
+| snap 28 |    | Cutoff mass              = 6.54e+10 -------------------
+| snap 28 |    |         halo       1 | idf=38.46% | m=4.35e+11 Msol
+| snap 28 |    |         halo       0 | idf=43.50% | m=6.03e+11 Msol
+| snap 28 |    |         halo       2 | idf= 3.30% | m=2.67e+11 Msol
+| snap 28 |    |         halo       3 | idf= 1.00% | m=1.48e+11 Msol
+| snap 28 |    |    -->  halo       0 selected
+| snap 28 | ------------------------------------------------------------
+| snap 28 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 28 | R200                      = 255.4 kpc physical / 378.3 kpc comoving
+| snap 28 | M200                      = 1.80e+12 Msol
+| snap 28 | M_clump                   = 6.03e+11 Msol
+| snap 28 | position                  = [11483.1848,13902.5768,9474.2268] kpc
+| snap 28 | ------------------------------------------------------------
+| snap 28 | npart_tot(r<R200)         = 119245
+| snap 28 | npart_tot(r<2.0*R200)     = 145776
+| snap 28 | npart_coarse(r<2.0*R200)  = 19
+| snap 28 | npart_coarse_all          = 568
+| snap 28 | contamination(r<2.0*R200) = 0.1%
+| snap 28 | npart_zoom                = 220352
+| snap 28 | npart_tot                 = 2436379
+| snap 28 | Rexclude contaminants     = 0
+| snap 28 | Broad contaminants        = 62
+| snap 28 | r_min coarse part/R200    = 4.855e-01
+| snap 28 | r_mean coarse part/R200   = 1.099e+00
+| snap 28 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 28 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 28 | Volume increase         -> 0.00%
+| snap 27 | ../Run/output_00027/clump_00027.txt?????
+| snap 27 | ------------------------------------------------------------
+| snap 27 |    | npart tree               =   2436379 ------------------
+| snap 27 |    | Previous halo population =       3 --------------------
+| snap 27 |    | Cutoff mass              = 6.03e+10 -------------------
+| snap 27 |    |         halo       1 | idf=12.05% | m=3.61e+11 Msol
+| snap 27 |    |         halo       3 | idf= 1.79% | m=6.71e+10 Msol
+| snap 27 |    |         halo       0 | idf=37.61% | m=9.26e+11 Msol
+| snap 27 |    |    -->  halo       0 selected
+| snap 27 | ------------------------------------------------------------
+| snap 27 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 27 | R200                      = 245.3 kpc physical / 377.1 kpc comoving
+| snap 27 | M200                      = 1.79e+12 Msol
+| snap 27 | M_clump                   = 9.26e+11 Msol
+| snap 27 | position                  = [11115.2985,13350.6528,9199.4929] kpc
+| snap 27 | ------------------------------------------------------------
+| snap 27 | npart_tot(r<R200)         = 118127
+| snap 27 | npart_tot(r<2.0*R200)     = 143933
+| snap 27 | npart_coarse(r<2.0*R200)  = 18
+| snap 27 | npart_coarse_all          = 586
+| snap 27 | contamination(r<2.0*R200) = 0.1%
+| snap 27 | npart_zoom                = 220352
+| snap 27 | npart_tot                 = 2436379
+| snap 27 | Rexclude contaminants     = 0
+| snap 27 | Broad contaminants        = 62
+| snap 27 | r_min coarse part/R200    = 8.868e-01
+| snap 27 | r_mean coarse part/R200   = 1.388e+00
+| snap 27 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 27 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 27 | Volume increase         -> 0.00%
+| snap 26 | ../Run/output_00026/clump_00026.txt?????
+| snap 26 | ------------------------------------------------------------
+| snap 26 |    | npart tree               =   2436379 ------------------
+| snap 26 |    | Previous halo population =       4 --------------------
+| snap 26 |    | Cutoff mass              = 9.26e+10 -------------------
+| snap 26 |    |         halo       1 | idf=17.23% | m=4.98e+11 Msol
+| snap 26 |    |         halo       2 | idf=16.46% | m=2.04e+11 Msol
+| snap 26 |    |         halo       3 | idf= 4.86% | m=1.05e+11 Msol
+| snap 26 |    |         halo       0 | idf=34.87% | m=5.64e+11 Msol
+| snap 26 |    |    -->  halo       0 selected
+| snap 26 | ------------------------------------------------------------
+| snap 26 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 26 | R200                      = 232.9 kpc physical / 372.6 kpc comoving
+| snap 26 | M200                      = 1.72e+12 Msol
+| snap 26 | M_clump                   = 5.64e+11 Msol
+| snap 26 | position                  = [10713.0739,12786.8579,8928.7103] kpc
+| snap 26 | ------------------------------------------------------------
+| snap 26 | npart_tot(r<R200)         = 113986
+| snap 26 | npart_tot(r<2.0*R200)     = 141835
+| snap 26 | npart_coarse(r<2.0*R200)  = 12
+| snap 26 | npart_coarse_all          = 598
+| snap 26 | contamination(r<2.0*R200) = 0.1%
+| snap 26 | npart_zoom                = 220352
+| snap 26 | npart_tot                 = 2436379
+| snap 26 | Rexclude contaminants     = 0
+| snap 26 | Broad contaminants        = 62
+| snap 26 | r_min coarse part/R200    = 1.189e+00
+| snap 26 | r_mean coarse part/R200   = 1.423e+00
+| snap 26 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 26 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 26 | Volume increase         -> 0.00%
+| snap 25 | ../Run/output_00025/clump_00025.txt?????
+| snap 25 | ------------------------------------------------------------
+| snap 25 |    | npart tree               =   2436379 ------------------
+| snap 25 |    | Previous halo population =       4 --------------------
+| snap 25 |    | Cutoff mass              = 5.64e+10 -------------------
+| snap 25 |    |         halo       0 | idf=30.03% | m=7.69e+11 Msol
+| snap 25 |    |         halo       5 | idf= 1.10% | m=8.50e+10 Msol
+| snap 25 |    |         halo       1 | idf=15.07% | m=3.39e+11 Msol
+| snap 25 |    |         halo       2 | idf= 4.11% | m=9.77e+10 Msol
+| snap 25 |    |    -->  halo       0 selected
+| snap 25 | ------------------------------------------------------------
+| snap 25 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 25 | R200                      = 219.9 kpc physical / 366.4 kpc comoving
+| snap 25 | M200                      = 1.64e+12 Msol
+| snap 25 | M_clump                   = 7.69e+11 Msol
+| snap 25 | position                  = [10286.3848,12254.3452,8655.2145] kpc
+| snap 25 | ------------------------------------------------------------
+| snap 25 | npart_tot(r<R200)         = 108424
+| snap 25 | npart_tot(r<2.0*R200)     = 139388
+| snap 25 | npart_coarse(r<2.0*R200)  = 10
+| snap 25 | npart_coarse_all          = 608
+| snap 25 | contamination(r<2.0*R200) = 0.1%
+| snap 25 | npart_zoom                = 220352
+| snap 25 | npart_tot                 = 2436379
+| snap 25 | Rexclude contaminants     = 0
+| snap 25 | Broad contaminants        = 62
+| snap 25 | r_min coarse part/R200    = 1.512e+00
+| snap 25 | r_mean coarse part/R200   = 1.638e+00
+| snap 25 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 25 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 25 | Volume increase         -> 0.00%
+| snap 24 | ../Run/output_00024/clump_00024.txt?????
+| snap 24 | ------------------------------------------------------------
+| snap 24 |    | npart tree               =   2436379 ------------------
+| snap 24 |    | Previous halo population =       4 --------------------
+| snap 24 |    | Cutoff mass              = 7.69e+10 -------------------
+| snap 24 |    |         halo       0 | idf=34.39% | m=6.57e+11 Msol
+| snap 24 |    |         halo       1 | idf= 3.34% | m=2.82e+11 Msol
+| snap 24 |    |         halo       2 | idf= 8.03% | m=1.97e+11 Msol
+| snap 24 |    |         halo       3 | idf= 1.29% | m=8.02e+10 Msol
+| snap 24 |    |    -->  halo       0 selected
+| snap 24 | ------------------------------------------------------------
+| snap 24 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 24 | R200                      = 197.1 kpc physical / 342.5 kpc comoving
+| snap 24 | M200                      = 1.34e+12 Msol
+| snap 24 | M_clump                   = 6.57e+11 Msol
+| snap 24 | position                  = [9870.8796,11708.0287,8380.8989] kpc
+| snap 24 | ------------------------------------------------------------
+| snap 24 | npart_tot(r<R200)         = 88556
+| snap 24 | npart_tot(r<2.0*R200)     = 134196
+| snap 24 | npart_coarse(r<2.0*R200)  = 7
+| snap 24 | npart_coarse_all          = 615
+| snap 24 | contamination(r<2.0*R200) = 0.0%
+| snap 24 | npart_zoom                = 220352
+| snap 24 | npart_tot                 = 2436379
+| snap 24 | Rexclude contaminants     = 0
+| snap 24 | Broad contaminants        = 62
+| snap 24 | r_min coarse part/R200    = 1.891e+00
+| snap 24 | r_mean coarse part/R200   = 1.941e+00
+| snap 24 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 24 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 24 | Volume increase         -> 0.00%
+| snap 23 | ../Run/output_00023/clump_00023.txt?????
+| snap 23 | ------------------------------------------------------------
+| snap 23 |    | npart tree               =   2436379 ------------------
+| snap 23 |    | Previous halo population =       5 --------------------
+| snap 23 |    | Cutoff mass              = 6.57e+10 -------------------
+| snap 23 |    |         halo       0 | idf=39.79% | m=7.99e+11 Msol
+| snap 23 |    |         halo       4 | idf= 0.57% | m=6.73e+10 Msol
+| snap 23 |    |         halo       2 | idf= 0.11% | m=8.19e+10 Msol
+| snap 23 |    |         halo       1 | idf= 0.00% | m=3.13e+11 Msol
+| snap 23 |    |         halo     169 | idf= 0.00% | m=2.20e+11 Msol
+| snap 23 |    |    -->  halo       0 selected
+| snap 23 | ------------------------------------------------------------
+| snap 23 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 23 | R200                      = 184.0 kpc physical / 334.6 kpc comoving
+| snap 23 | M200                      = 1.25e+12 Msol
+| snap 23 | M_clump                   = 7.99e+11 Msol
+| snap 23 | position                  = [9452.3988,11155.5240,8096.3553] kpc
+| snap 23 | ------------------------------------------------------------
+| snap 23 | npart_tot(r<R200)         = 82510
+| snap 23 | npart_tot(r<2.0*R200)     = 128517
+| snap 23 | npart_coarse(r<2.0*R200)  = 0
+| snap 23 | npart_coarse_all          = 615
+| snap 23 | contamination(r<2.0*R200) = 0.0%
+| snap 23 | npart_zoom                = 220352
+| snap 23 | npart_tot                 = 2436379
+| snap 23 | Rexclude contaminants     = 0
+| snap 23 | Broad contaminants        = 62
+| snap 23 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 23 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 23 | Volume increase         -> 0.00%
+| snap 22 | ../Run/output_00022/clump_00022.txt?????
+| snap 22 | ------------------------------------------------------------
+| snap 22 |    | npart tree               =   2436379 ------------------
+| snap 22 |    | Previous halo population =       5 --------------------
+| snap 22 |    | Cutoff mass              = 7.99e+10 -------------------
+| snap 22 |    |         halo       0 | idf=33.17% | m=6.22e+11 Msol
+| snap 22 |    |         halo       3 | idf= 1.46% | m=8.01e+10 Msol
+| snap 22 |    |         halo       2 | idf= 0.32% | m=1.17e+11 Msol
+| snap 22 |    |         halo     169 | idf= 0.00% | m=2.04e+11 Msol
+| snap 22 |    |         halo       1 | idf= 0.00% | m=2.93e+11 Msol
+| snap 22 |    |    -->  halo       0 selected
+| snap 22 | ------------------------------------------------------------
+| snap 22 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 22 | R200                      = 176.1 kpc physical / 335.4 kpc comoving
+| snap 22 | M200                      = 1.26e+12 Msol
+| snap 22 | M_clump                   = 6.22e+11 Msol
+| snap 22 | position                  = [9039.4412,10605.1025,7810.4625] kpc
+| snap 22 | ------------------------------------------------------------
+| snap 22 | npart_tot(r<R200)         = 83162
+| snap 22 | npart_tot(r<2.0*R200)     = 113765
+| snap 22 | npart_coarse(r<2.0*R200)  = 0
+| snap 22 | npart_coarse_all          = 615
+| snap 22 | contamination(r<2.0*R200) = 0.0%
+| snap 22 | npart_zoom                = 220352
+| snap 22 | npart_tot                 = 2436379
+| snap 22 | Rexclude contaminants     = 0
+| snap 22 | Broad contaminants        = 62
+| snap 22 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 22 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 22 | Volume increase         -> 0.00%
+| snap 21 | ../Run/output_00021/clump_00021.txt?????
+| snap 21 | ------------------------------------------------------------
+| snap 21 |    | npart tree               =   2436379 ------------------
+| snap 21 |    | Previous halo population =       4 --------------------
+| snap 21 |    | Cutoff mass              = 6.22e+10 -------------------
+| snap 21 |    |         halo       2 | idf= 0.88% | m=8.37e+10 Msol
+| snap 21 |    |         halo       0 | idf=34.46% | m=6.86e+11 Msol
+| snap 21 |    |         halo     200 | idf= 0.00% | m=1.43e+11 Msol
+| snap 21 |    |         halo       1 | idf= 0.00% | m=2.50e+11 Msol
+| snap 21 |    |    -->  halo       0 selected
+| snap 21 | ------------------------------------------------------------
+| snap 21 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 21 | R200                      = 165.6 kpc physical / 331.2 kpc comoving
+| snap 21 | M200                      = 1.21e+12 Msol
+| snap 21 | M_clump                   = 6.86e+11 Msol
+| snap 21 | position                  = [8644.4733,10059.1406,7512.3276] kpc
+| snap 21 | ------------------------------------------------------------
+| snap 21 | npart_tot(r<R200)         = 80052
+| snap 21 | npart_tot(r<2.0*R200)     = 106280
+| snap 21 | npart_coarse(r<2.0*R200)  = 0
+| snap 21 | npart_coarse_all          = 615
+| snap 21 | contamination(r<2.0*R200) = 0.0%
+| snap 21 | npart_zoom                = 220352
+| snap 21 | npart_tot                 = 2436379
+| snap 21 | Rexclude contaminants     = 0
+| snap 21 | Broad contaminants        = 62
+| snap 21 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 21 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 21 | Volume increase         -> 0.00%
+| snap 20 | ../Run/output_00020/clump_00020.txt?????
+| snap 20 | ------------------------------------------------------------
+| snap 20 |    | npart tree               =   2436379 ------------------
+| snap 20 |    | Previous halo population =       5 --------------------
+| snap 20 |    | Cutoff mass              = 6.86e+10 -------------------
+| snap 20 |    |         halo       0 | idf=26.21% | m=5.61e+11 Msol
+| snap 20 |    |         halo       1 | idf= 0.00% | m=2.36e+11 Msol
+| snap 20 |    |         halo       2 | idf= 3.15% | m=1.02e+11 Msol
+| snap 20 |    |         halo       4 | idf= 0.92% | m=8.46e+10 Msol
+| snap 20 |    |         halo     185 | idf= 0.00% | m=1.05e+11 Msol
+| snap 20 |    |    -->  halo       0 selected
+| snap 20 | ------------------------------------------------------------
+| snap 20 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 20 | R200                      = 156.2 kpc physical / 328.7 kpc comoving
+| snap 20 | M200                      = 1.18e+12 Msol
+| snap 20 | M_clump                   = 5.61e+11 Msol
+| snap 20 | position                  = [8255.1916,9525.1259,7203.5871] kpc
+| snap 20 | ------------------------------------------------------------
+| snap 20 | npart_tot(r<R200)         = 78261
+| snap 20 | npart_tot(r<2.0*R200)     = 102413
+| snap 20 | npart_coarse(r<2.0*R200)  = 0
+| snap 20 | npart_coarse_all          = 615
+| snap 20 | contamination(r<2.0*R200) = 0.0%
+| snap 20 | npart_zoom                = 220352
+| snap 20 | npart_tot                 = 2436379
+| snap 20 | Rexclude contaminants     = 0
+| snap 20 | Broad contaminants        = 62
+| snap 20 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 20 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 20 | Volume increase         -> 0.00%
+| snap 19 | ../Run/output_00019/clump_00019.txt?????
+| snap 19 | ------------------------------------------------------------
+| snap 19 |    | npart tree               =   2436379 ------------------
+| snap 19 |    | Previous halo population =       6 --------------------
+| snap 19 |    | Cutoff mass              = 5.61e+10 -------------------
+| snap 19 |    |         halo       0 | idf=28.45% | m=6.37e+11 Msol
+| snap 19 |    |         halo       1 | idf= 0.00% | m=2.20e+11 Msol
+| snap 19 |    |         halo       2 | idf= 0.47% | m=6.43e+10 Msol
+| snap 19 |    |         halo       3 | idf= 1.27% | m=7.94e+10 Msol
+| snap 19 |    |         halo       4 | idf= 2.67% | m=9.52e+10 Msol
+| snap 19 |    |         halo     175 | idf= 0.00% | m=1.03e+11 Msol
+| snap 19 |    |    -->  halo       0 selected
+| snap 19 | ------------------------------------------------------------
+| snap 19 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 19 | R200                      = 143.9 kpc physical / 319.7 kpc comoving
+| snap 19 | M200                      = 1.09e+12 Msol
+| snap 19 | M_clump                   = 6.37e+11 Msol
+| snap 19 | position                  = [7846.6894,8989.9560,6894.0066] kpc
+| snap 19 | ------------------------------------------------------------
+| snap 19 | npart_tot(r<R200)         = 72009
+| snap 19 | npart_tot(r<2.0*R200)     = 97533
+| snap 19 | npart_coarse(r<2.0*R200)  = 0
+| snap 19 | npart_coarse_all          = 615
+| snap 19 | contamination(r<2.0*R200) = 0.0%
+| snap 19 | npart_zoom                = 220352
+| snap 19 | npart_tot                 = 2436379
+| snap 19 | Rexclude contaminants     = 0
+| snap 19 | Broad contaminants        = 62
+| snap 19 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 19 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 19 | Volume increase         -> 0.00%
+| snap 18 | ../Run/output_00018/clump_00018.txt?????
+| snap 18 | ------------------------------------------------------------
+| snap 18 |    | npart tree               =   2436379 ------------------
+| snap 18 |    | Previous halo population =       6 --------------------
+| snap 18 |    | Cutoff mass              = 6.37e+10 -------------------
+| snap 18 |    |         halo       0 | idf=26.64% | m=5.27e+11 Msol
+| snap 18 |    |         halo       1 | idf= 0.00% | m=2.07e+11 Msol
+| snap 18 |    |         halo       2 | idf= 3.94% | m=9.42e+10 Msol
+| snap 18 |    |         halo     116 | idf= 0.00% | m=5.31e+11 Msol
+| snap 18 |    |         halo     129 | idf= 0.00% | m=4.46e+11 Msol
+| snap 18 |    |         halo     177 | idf= 0.00% | m=8.23e+10 Msol
+| snap 18 |    |    -->  halo       0 selected
+| snap 18 | ------------------------------------------------------------
+| snap 18 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 18 | R200                      = 134.1 kpc physical / 315.4 kpc comoving
+| snap 18 | M200                      = 1.05e+12 Msol
+| snap 18 | M_clump                   = 5.27e+11 Msol
+| snap 18 | position                  = [7432.7594,8457.2523,6581.7398] kpc
+| snap 18 | ------------------------------------------------------------
+| snap 18 | npart_tot(r<R200)         = 69174
+| snap 18 | npart_tot(r<2.0*R200)     = 92887
+| snap 18 | npart_coarse(r<2.0*R200)  = 0
+| snap 18 | npart_coarse_all          = 615
+| snap 18 | contamination(r<2.0*R200) = 0.0%
+| snap 18 | npart_zoom                = 220352
+| snap 18 | npart_tot                 = 2436379
+| snap 18 | Rexclude contaminants     = 0
+| snap 18 | Broad contaminants        = 62
+| snap 18 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 18 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 18 | Volume increase         -> 0.00%
+| snap 17 | ../Run/output_00017/clump_00017.txt?????
+| snap 17 | ------------------------------------------------------------
+| snap 17 |    | npart tree               =   2436379 ------------------
+| snap 17 |    | Previous halo population =       9 --------------------
+| snap 17 |    | Cutoff mass              = 5.27e+10 -------------------
+| snap 17 |    |         halo       0 | idf=16.35% | m=2.81e+11 Msol
+| snap 17 |    |         halo       1 | idf= 0.00% | m=2.08e+11 Msol
+| snap 17 |    |         halo       2 | idf=15.31% | m=1.95e+11 Msol
+| snap 17 |    |         halo       3 | idf= 2.55% | m=8.69e+10 Msol
+| snap 17 |    |         halo       4 | idf= 0.00% | m=5.49e+10 Msol
+| snap 17 |    |         halo       5 | idf= 0.21% | m=5.43e+10 Msol
+| snap 17 |    |         halo       6 | idf= 1.42% | m=5.43e+10 Msol
+| snap 17 |    |         halo     108 | idf= 0.00% | m=5.57e+11 Msol
+| snap 17 |    |         halo     127 | idf= 0.00% | m=3.96e+11 Msol
+| snap 17 |    |    -->  halo       0 selected
+| snap 17 | ------------------------------------------------------------
+| snap 17 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 17 | R200                      = 124.2 kpc physical / 310.4 kpc comoving
+| snap 17 | M200                      = 9.96e+11 Msol
+| snap 17 | M_clump                   = 2.81e+11 Msol
+| snap 17 | position                  = [7019.7970,7940.5610,6265.3301] kpc
+| snap 17 | ------------------------------------------------------------
+| snap 17 | npart_tot(r<R200)         = 65924
+| snap 17 | npart_tot(r<2.0*R200)     = 83281
+| snap 17 | npart_coarse(r<2.0*R200)  = 0
+| snap 17 | npart_coarse_all          = 615
+| snap 17 | contamination(r<2.0*R200) = 0.0%
+| snap 17 | npart_zoom                = 220352
+| snap 17 | npart_tot                 = 2436379
+| snap 17 | Rexclude contaminants     = 0
+| snap 17 | Broad contaminants        = 62
+| snap 17 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 17 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 17 | Volume increase         -> 0.00%
+| snap 16 | ../Run/output_00016/clump_00016.txt?????
+| snap 16 | ------------------------------------------------------------
+| snap 16 |    | npart tree               =   2436379 ------------------
+| snap 16 |    | Previous halo population =       8 --------------------
+| snap 16 |    | Cutoff mass              = 2.81e+10 -------------------
+| snap 16 |    |         halo       0 | idf=20.54% | m=4.25e+11 Msol
+| snap 16 |    |         halo       1 | idf= 0.00% | m=1.91e+11 Msol
+| snap 16 |    |         halo       2 | idf= 6.81% | m=1.58e+11 Msol
+| snap 16 |    |         halo       3 | idf= 1.63% | m=5.91e+10 Msol
+| snap 16 |    |         halo       4 | idf= 0.00% | m=3.34e+10 Msol
+| snap 16 |    |         halo       5 | idf= 0.53% | m=3.04e+10 Msol
+| snap 16 |    |         halo     112 | idf= 0.00% | m=5.17e+11 Msol
+| snap 16 |    |         halo     126 | idf= 0.00% | m=3.25e+11 Msol
+| snap 16 |    |    -->  halo       0 selected
+| snap 16 | ------------------------------------------------------------
+| snap 16 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 16 | R200                      = 109.1 kpc physical / 290.8 kpc comoving
+| snap 16 | M200                      = 8.19e+11 Msol
+| snap 16 | M_clump                   = 4.25e+11 Msol
+| snap 16 | position                  = [6594.3071,7413.7282,5940.0260] kpc
+| snap 16 | ------------------------------------------------------------
+| snap 16 | npart_tot(r<R200)         = 54208
+| snap 16 | npart_tot(r<2.0*R200)     = 76254
+| snap 16 | npart_coarse(r<2.0*R200)  = 0
+| snap 16 | npart_coarse_all          = 615
+| snap 16 | contamination(r<2.0*R200) = 0.0%
+| snap 16 | npart_zoom                = 220352
+| snap 16 | npart_tot                 = 2436379
+| snap 16 | Rexclude contaminants     = 0
+| snap 16 | Broad contaminants        = 62
+| snap 16 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 16 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 16 | Volume increase         -> 0.00%
+| snap 15 | ../Run/output_00015/clump_00015.txt?????
+| snap 15 | ------------------------------------------------------------
+| snap 15 |    | npart tree               =   2436379 ------------------
+| snap 15 |    | Previous halo population =       6 --------------------
+| snap 15 |    | Cutoff mass              = 4.25e+10 -------------------
+| snap 15 |    |         halo       0 | idf=16.46% | m=3.81e+11 Msol
+| snap 15 |    |         halo       1 | idf= 0.00% | m=1.73e+11 Msol
+| snap 15 |    |         halo       2 | idf= 4.25% | m=1.08e+11 Msol
+| snap 15 |    |         halo       3 | idf= 0.00% | m=6.04e+10 Msol
+| snap 15 |    |         halo     115 | idf= 0.00% | m=4.77e+11 Msol
+| snap 15 |    |         halo     119 | idf= 0.00% | m=2.77e+11 Msol
+| snap 15 |    |    -->  halo       0 selected
+| snap 15 | ------------------------------------------------------------
+| snap 15 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 15 | R200                      = 95.8 kpc physical / 273.3 kpc comoving
+| snap 15 | M200                      = 6.80e+11 Msol
+| snap 15 | M_clump                   = 3.81e+11 Msol
+| snap 15 | position                  = [6151.8943,6898.5772,5611.5517] kpc
+| snap 15 | ------------------------------------------------------------
+| snap 15 | npart_tot(r<R200)         = 44991
+| snap 15 | npart_tot(r<2.0*R200)     = 66112
+| snap 15 | npart_coarse(r<2.0*R200)  = 0
+| snap 15 | npart_coarse_all          = 615
+| snap 15 | contamination(r<2.0*R200) = 0.0%
+| snap 15 | npart_zoom                = 220352
+| snap 15 | npart_tot                 = 2436379
+| snap 15 | Rexclude contaminants     = 0
+| snap 15 | Broad contaminants        = 62
+| snap 15 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 15 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 15 | Volume increase         -> 0.00%
+| snap 14 | ../Run/output_00014/clump_00014.txt?????
+| snap 14 | ------------------------------------------------------------
+| snap 14 |    | npart tree               =   2436379 ------------------
+| snap 14 |    | Previous halo population =       6 --------------------
+| snap 14 |    | Cutoff mass              = 3.81e+10 -------------------
+| snap 14 |    |         halo       0 | idf=17.01% | m=3.37e+11 Msol
+| snap 14 |    |         halo       1 | idf= 0.00% | m=1.58e+11 Msol
+| snap 14 |    |         halo       2 | idf= 4.51% | m=9.91e+10 Msol
+| snap 14 |    |         halo       3 | idf= 0.89% | m=4.46e+10 Msol
+| snap 14 |    |         halo       7 | idf= 1.76% | m=3.88e+10 Msol
+| snap 14 |    |         halo     100 | idf= 0.00% | m=3.90e+11 Msol
+| snap 14 |    |    -->  halo       0 selected
+| snap 14 | ------------------------------------------------------------
+| snap 14 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 14 | R200                      = 80.4 kpc physical / 247.3 kpc comoving
+| snap 14 | M200                      = 5.03e+11 Msol
+| snap 14 | M_clump                   = 3.37e+11 Msol
+| snap 14 | position                  = [5709.7757,6370.0329,5269.7119] kpc
+| snap 14 | ------------------------------------------------------------
+| snap 14 | npart_tot(r<R200)         = 33314
+| snap 14 | npart_tot(r<2.0*R200)     = 55518
+| snap 14 | npart_coarse(r<2.0*R200)  = 0
+| snap 14 | npart_coarse_all          = 615
+| snap 14 | contamination(r<2.0*R200) = 0.0%
+| snap 14 | npart_zoom                = 220352
+| snap 14 | npart_tot                 = 2436379
+| snap 14 | Rexclude contaminants     = 0
+| snap 14 | Broad contaminants        = 62
+| snap 14 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 14 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 14 | Volume increase         -> 0.00%
+| snap 13 | ../Run/output_00013/clump_00013.txt?????
+| snap 13 | ------------------------------------------------------------
+| snap 13 |    | npart tree               =   2436379 ------------------
+| snap 13 |    | Previous halo population =       5 --------------------
+| snap 13 |    | Cutoff mass              = 3.37e+10 -------------------
+| snap 13 |    |         halo       0 | idf=16.83% | m=3.17e+11 Msol
+| snap 13 |    |         halo       1 | idf= 0.00% | m=1.45e+11 Msol
+| snap 13 |    |         halo       2 | idf= 0.01% | m=7.95e+10 Msol
+| snap 13 |    |         halo       3 | idf= 0.00% | m=4.21e+10 Msol
+| snap 13 |    |         halo     101 | idf= 0.00% | m=2.75e+11 Msol
+| snap 13 |    |    -->  halo       0 selected
+| snap 13 | ------------------------------------------------------------
+| snap 13 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 13 | R200                      = 71.4 kpc physical / 237.7 kpc comoving
+| snap 13 | M200                      = 4.47e+11 Msol
+| snap 13 | M_clump                   = 3.17e+11 Msol
+| snap 13 | position                  = [5273.6835,5854.8771,4925.0270] kpc
+| snap 13 | ------------------------------------------------------------
+| snap 13 | npart_tot(r<R200)         = 29590
+| snap 13 | npart_tot(r<2.0*R200)     = 42359
+| snap 13 | npart_coarse(r<2.0*R200)  = 0
+| snap 13 | npart_coarse_all          = 615
+| snap 13 | contamination(r<2.0*R200) = 0.0%
+| snap 13 | npart_zoom                = 220352
+| snap 13 | npart_tot                 = 2436379
+| snap 13 | Rexclude contaminants     = 0
+| snap 13 | Broad contaminants        = 62
+| snap 13 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 13 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 13 | Volume increase         -> 0.00%
+| snap 12 | ../Run/output_00012/clump_00012.txt?????
+| snap 12 | ------------------------------------------------------------
+| snap 12 |    | npart tree               =   2436379 ------------------
+| snap 12 |    | Previous halo population =       8 --------------------
+| snap 12 |    | Cutoff mass              = 3.17e+10 -------------------
+| snap 12 |    |         halo       0 | idf=13.61% | m=2.19e+11 Msol
+| snap 12 |    |         halo       1 | idf= 0.00% | m=7.56e+10 Msol
+| snap 12 |    |         halo       2 | idf= 0.00% | m=7.50e+10 Msol
+| snap 12 |    |         halo       3 | idf= 0.00% | m=3.91e+10 Msol
+| snap 12 |    |         halo       4 | idf= 0.00% | m=4.95e+10 Msol
+| snap 12 |    |         halo       5 | idf= 1.30% | m=5.85e+10 Msol
+| snap 12 |    |         halo       7 | idf= 1.19% | m=3.99e+10 Msol
+| snap 12 |    |         halo     114 | idf= 0.00% | m=1.70e+11 Msol
+| snap 12 |    |    -->  halo       0 selected
+| snap 12 | ------------------------------------------------------------
+| snap 12 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 12 | R200                      = 60.3 kpc physical / 219.2 kpc comoving
+| snap 12 | M200                      = 3.51e+11 Msol
+| snap 12 | M_clump                   = 2.19e+11 Msol
+| snap 12 | position                  = [4834.3720,5337.2901,4572.5398] kpc
+| snap 12 | ------------------------------------------------------------
+| snap 12 | npart_tot(r<R200)         = 23194
+| snap 12 | npart_tot(r<2.0*R200)     = 36543
+| snap 12 | npart_coarse(r<2.0*R200)  = 0
+| snap 12 | npart_coarse_all          = 615
+| snap 12 | contamination(r<2.0*R200) = 0.0%
+| snap 12 | npart_zoom                = 220352
+| snap 12 | npart_tot                 = 2436379
+| snap 12 | Rexclude contaminants     = 0
+| snap 12 | Broad contaminants        = 62
+| snap 12 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 12 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 12 | Volume increase         -> 0.00%
+| snap 11 | ../Run/output_00011/clump_00011.txt?????
+| snap 11 | ------------------------------------------------------------
+| snap 11 |    | npart tree               =   2436379 ------------------
+| snap 11 |    | Previous halo population =       8 --------------------
+| snap 11 |    | Cutoff mass              = 2.19e+10 -------------------
+| snap 11 |    |         halo       0 | idf=13.32% | m=2.13e+11 Msol
+| snap 11 |    |         halo       1 | idf= 0.00% | m=8.38e+10 Msol
+| snap 11 |    |         halo       2 | idf= 0.00% | m=5.91e+10 Msol
+| snap 11 |    |         halo       3 | idf= 1.57% | m=6.29e+10 Msol
+| snap 11 |    |         halo       4 | idf= 0.00% | m=4.77e+10 Msol
+| snap 11 |    |         halo       5 | idf= 1.24% | m=2.56e+10 Msol
+| snap 11 |    |         halo       6 | idf= 0.00% | m=2.20e+10 Msol
+| snap 11 |    |         halo       9 | idf= 0.00% | m=2.32e+10 Msol
+| snap 11 |    |    -->  halo       0 selected
+| snap 11 | ------------------------------------------------------------
+| snap 11 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 11 | R200                      = 53.7 kpc physical / 214.6 kpc comoving
+| snap 11 | M200                      = 3.29e+11 Msol
+| snap 11 | M_clump                   = 2.13e+11 Msol
+| snap 11 | position                  = [4394.6860,4830.9415,4211.5210] kpc
+| snap 11 | ------------------------------------------------------------
+| snap 11 | npart_tot(r<R200)         = 21789
+| snap 11 | npart_tot(r<2.0*R200)     = 29709
+| snap 11 | npart_coarse(r<2.0*R200)  = 0
+| snap 11 | npart_coarse_all          = 615
+| snap 11 | contamination(r<2.0*R200) = 0.0%
+| snap 11 | npart_zoom                = 220352
+| snap 11 | npart_tot                 = 2436379
+| snap 11 | Rexclude contaminants     = 0
+| snap 11 | Broad contaminants        = 62
+| snap 11 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 11 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 11 | Volume increase         -> 0.00%
+| snap 10 | ../Run/output_00010/clump_00010.txt?????
+| snap 10 | ------------------------------------------------------------
+| snap 10 |    | npart tree               =   2436379 ------------------
+| snap 10 |    | Previous halo population =       6 --------------------
+| snap 10 |    | Cutoff mass              = 2.13e+10 -------------------
+| snap 10 |    |         halo       0 | idf=16.42% | m=2.38e+11 Msol
+| snap 10 |    |         halo       1 | idf= 0.00% | m=6.94e+10 Msol
+| snap 10 |    |         halo       2 | idf= 0.00% | m=5.80e+10 Msol
+| snap 10 |    |         halo       3 | idf= 0.00% | m=3.19e+10 Msol
+| snap 10 |    |         halo       4 | idf= 0.00% | m=2.81e+10 Msol
+| snap 10 |    |         halo       8 | idf= 0.00% | m=2.51e+10 Msol
+| snap 10 |    |    -->  halo       0 selected
+| snap 10 | ------------------------------------------------------------
+| snap 10 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 10 | R200                      = 45.7 kpc physical / 202.7 kpc comoving
+| snap 10 | M200                      = 2.77e+11 Msol
+| snap 10 | M_clump                   = 2.38e+11 Msol
+| snap 10 | position                  = [3958.1197,4332.0112,3842.4489] kpc
+| snap 10 | ------------------------------------------------------------
+| snap 10 | npart_tot(r<R200)         = 18353
+| snap 10 | npart_tot(r<2.0*R200)     = 24489
+| snap 10 | npart_coarse(r<2.0*R200)  = 0
+| snap 10 | npart_coarse_all          = 615
+| snap 10 | contamination(r<2.0*R200) = 0.0%
+| snap 10 | npart_zoom                = 220352
+| snap 10 | npart_tot                 = 2436379
+| snap 10 | Rexclude contaminants     = 0
+| snap 10 | Broad contaminants        = 62
+| snap 10 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 10 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 10 | Volume increase         -> 0.00%
+| snap 09 | ../Run/output_00009/clump_00009.txt?????
+| snap 09 | ------------------------------------------------------------
+| snap 09 |    | npart tree               =   2436379 ------------------
+| snap 09 |    | Previous halo population =       6 --------------------
+| snap 09 |    | Cutoff mass              = 2.38e+10 -------------------
+| snap 09 |    |         halo       0 | idf=11.14% | m=1.30e+11 Msol
+| snap 09 |    |         halo       1 | idf= 0.00% | m=4.61e+10 Msol
+| snap 09 |    |         halo       2 | idf= 0.00% | m=3.02e+10 Msol
+| snap 09 |    |         halo       3 | idf= 0.00% | m=2.80e+10 Msol
+| snap 09 |    |         halo       4 | idf= 1.37% | m=2.70e+10 Msol
+| snap 09 |    |         halo       5 | idf= 0.00% | m=2.86e+10 Msol
+| snap 09 |    |    -->  halo       0 selected
+| snap 09 | ------------------------------------------------------------
+| snap 09 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 09 | R200                      = 35.2 kpc physical / 176.2 kpc comoving
+| snap 09 | M200                      = 1.82e+11 Msol
+| snap 09 | M_clump                   = 1.30e+11 Msol
+| snap 09 | position                  = [3515.1841,3830.7756,3454.9737] kpc
+| snap 09 | ------------------------------------------------------------
+| snap 09 | npart_tot(r<R200)         = 12066
+| snap 09 | npart_tot(r<2.0*R200)     = 18981
+| snap 09 | npart_coarse(r<2.0*R200)  = 0
+| snap 09 | npart_coarse_all          = 615
+| snap 09 | contamination(r<2.0*R200) = 0.0%
+| snap 09 | npart_zoom                = 220352
+| snap 09 | npart_tot                 = 2436379
+| snap 09 | Rexclude contaminants     = 0
+| snap 09 | Broad contaminants        = 62
+| snap 09 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 09 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 09 | Volume increase         -> 0.00%
+| snap 08 | ../Run/output_00008/clump_00008.txt?????
+| snap 08 | ------------------------------------------------------------
+| snap 08 |    | npart tree               =   2436379 ------------------
+| snap 08 |    | Previous halo population =       6 --------------------
+| snap 08 |    | Cutoff mass              = 1.30e+10 -------------------
+| snap 08 |    |         halo       0 | idf= 9.74% | m=1.22e+11 Msol
+| snap 08 |    |         halo       1 | idf= 0.00% | m=4.44e+10 Msol
+| snap 08 |    |         halo       2 | idf= 0.00% | m=2.86e+10 Msol
+| snap 08 |    |         halo       3 | idf= 1.17% | m=2.21e+10 Msol
+| snap 08 |    |         halo       5 | idf= 0.00% | m=1.31e+10 Msol
+| snap 08 |    |         halo       6 | idf= 0.00% | m=1.52e+10 Msol
+| snap 08 |    |    -->  halo       0 selected
+| snap 08 | ------------------------------------------------------------
+| snap 08 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 08 | R200                      = 28.4 kpc physical / 162.0 kpc comoving
+| snap 08 | M200                      = 1.42e+11 Msol
+| snap 08 | M_clump                   = 1.22e+11 Msol
+| snap 08 | position                  = [3078.2541,3339.0352,3065.9394] kpc
+| snap 08 | ------------------------------------------------------------
+| snap 08 | npart_tot(r<R200)         = 9376
+| snap 08 | npart_tot(r<2.0*R200)     = 13196
+| snap 08 | npart_coarse(r<2.0*R200)  = 0
+| snap 08 | npart_coarse_all          = 615
+| snap 08 | contamination(r<2.0*R200) = 0.0%
+| snap 08 | npart_zoom                = 220352
+| snap 08 | npart_tot                 = 2436379
+| snap 08 | Rexclude contaminants     = 0
+| snap 08 | Broad contaminants        = 62
+| snap 08 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 08 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 08 | Volume increase         -> 0.00%
+| snap 07 | ../Run/output_00007/clump_00007.txt?????
+| snap 07 | ------------------------------------------------------------
+| snap 07 |    | npart tree               =   2436379 ------------------
+| snap 07 |    | Previous halo population =       5 --------------------
+| snap 07 |    | Cutoff mass              = 1.22e+10 -------------------
+| snap 07 |    |         halo       0 | idf= 7.61% | m=7.73e+10 Msol
+| snap 07 |    |         halo       1 | idf= 1.10% | m=1.54e+10 Msol
+| snap 07 |    |         halo       2 | idf= 0.00% | m=1.98e+10 Msol
+| snap 07 |    |         halo       3 | idf= 0.00% | m=1.63e+10 Msol
+| snap 07 |    |         halo       5 | idf= 0.00% | m=1.30e+10 Msol
+| snap 07 |    |    -->  halo       0 selected
+| snap 07 | ------------------------------------------------------------
+| snap 07 | Rexclude contaminants     = 0 this snap | 0 total accumulated
+| snap 07 | R200                      = 21.9 kpc physical / 145.9 kpc comoving
+| snap 07 | M200                      = 1.04e+11 Msol
+| snap 07 | M_clump                   = 7.73e+10 Msol
+| snap 07 | position                  = [2642.0386,2854.6752,2664.8228] kpc
+| snap 07 | ------------------------------------------------------------
+| snap 07 | npart_tot(r<R200)         = 6859
+| snap 07 | npart_tot(r<2.0*R200)     = 9375
+| snap 07 | npart_coarse(r<2.0*R200)  = 0
+| snap 07 | npart_coarse_all          = 615
+| snap 07 | contamination(r<2.0*R200) = 0.0%
+| snap 07 | npart_zoom                = 220352
+| snap 07 | npart_tot                 = 2436379
+| snap 07 | Rexclude contaminants     = 0
+| snap 07 | Broad contaminants        = 62
+| snap 07 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 07 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 07 | Volume increase         -> 0.00%
+| snap 06 | ../Run/output_00006/clump_00006.txt?????
+| snap 06 | ------------------------------------------------------------
+| snap 06 |    | npart tree               =   2436379 ------------------
+| snap 06 |    | Previous halo population =       5 --------------------
+| snap 06 |    | Cutoff mass              = 7.73e+09 -------------------
+| snap 06 |    |         halo       0 | idf= 3.98% | m=4.75e+10 Msol
+| snap 06 |    |         halo       1 | idf= 0.00% | m=1.49e+10 Msol
+| snap 06 |    |         halo       2 | idf= 0.00% | m=1.12e+10 Msol
+| snap 06 |    |         halo       3 | idf= 0.00% | m=8.17e+09 Msol
+| snap 06 |    |         halo       8 | idf= 0.00% | m=8.43e+09 Msol
+| snap 06 |    |    -->  halo       0 selected
+| snap 06 | ------------------------------------------------------------
+| snap 06 | Rexclude contaminants     = skipped (z=6.99 > zmax=6.0)
+| snap 06 | R200                      = 14.3 kpc physical / 114.3 kpc comoving
+| snap 06 | M200                      = 4.98e+10 Msol
+| snap 06 | M_clump                   = 4.75e+10 Msol
+| snap 06 | position                  = [2202.5082,2361.7155,2251.1630] kpc
+| snap 06 | ------------------------------------------------------------
+| snap 06 | npart_tot(r<R200)         = 3293
+| snap 06 | npart_tot(r<2.0*R200)     = 5159
+| snap 06 | npart_coarse(r<2.0*R200)  = 0
+| snap 06 | npart_coarse_all          = 615
+| snap 06 | contamination(r<2.0*R200) = 0.0%
+| snap 06 | npart_zoom                = 220352
+| snap 06 | npart_tot                 = 2436379
+| snap 06 | Rexclude contaminants     = 0
+| snap 06 | Broad contaminants        = 62
+| snap 06 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 06 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 06 | Volume increase         -> 0.00%
+| snap 05 | ../Run/output_00005/clump_00005.txt?????
+| snap 05 | ------------------------------------------------------------
+| snap 05 |    | npart tree               =   2436379 ------------------
+| snap 05 |    | Previous halo population =       5 --------------------
+| snap 05 |    | Cutoff mass              = 4.75e+09 -------------------
+| snap 05 |    |         halo       0 | idf= 1.66% | m=2.41e+10 Msol
+| snap 05 |    |         halo       5 | idf= 0.28% | m=5.17e+09 Msol
+| snap 05 |    |         halo       7 | idf= 0.00% | m=5.04e+09 Msol
+| snap 05 |    |         halo       8 | idf= 0.00% | m=6.21e+09 Msol
+| snap 05 |    |         halo      12 | idf= 0.08% | m=4.89e+09 Msol
+| snap 05 |    |    -->  halo       0 selected
+| snap 05 | ------------------------------------------------------------
+| snap 05 | Rexclude contaminants     = skipped (z=8.99 > zmax=6.0)
+| snap 05 | R200                      = 9.4 kpc physical / 93.8 kpc comoving
+| snap 05 | M200                      = 2.77e+10 Msol
+| snap 05 | M_clump                   = 2.41e+10 Msol
+| snap 05 | position                  = [1757.7872,1877.0144,1822.1744] kpc
+| snap 05 | ------------------------------------------------------------
+| snap 05 | npart_tot(r<R200)         = 1835
+| snap 05 | npart_tot(r<2.0*R200)     = 2636
+| snap 05 | npart_coarse(r<2.0*R200)  = 0
+| snap 05 | npart_coarse_all          = 615
+| snap 05 | contamination(r<2.0*R200) = 0.0%
+| snap 05 | npart_zoom                = 220352
+| snap 05 | npart_tot                 = 2436379
+| snap 05 | Rexclude contaminants     = 0
+| snap 05 | Broad contaminants        = 62
+| snap 05 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 05 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 05 | Volume increase         -> 0.00%
+| snap 04 | ../Run/output_00004/clump_00004.txt?????
+| snap 04 | ------------------------------------------------------------
+| snap 04 |    | npart tree               =   2436379 ------------------
+| snap 04 |    | Previous halo population =       2 --------------------
+| snap 04 |    | Cutoff mass              = 2.41e+09 -------------------
+| snap 04 |    |         halo       0 | idf= 0.21% | m=4.37e+09 Msol
+| snap 04 |    |         halo       1 | idf= 0.07% | m=3.19e+09 Msol
+| snap 04 |    |    -->  halo       0 selected
+| snap 04 | ------------------------------------------------------------
+| snap 04 | Rexclude contaminants     = skipped (z=12.29 > zmax=6.0)
+| snap 04 | R200                      = 3.5 kpc physical / 46.2 kpc comoving
+| snap 04 | M200                      = 3.34e+09 Msol
+| snap 04 | M_clump                   = 4.37e+09 Msol
+| snap 04 | position                  = [1317.5329,1401.7880,1387.5792] kpc
+| snap 04 | ------------------------------------------------------------
+| snap 04 | npart_tot(r<R200)         = 221
+| snap 04 | npart_tot(r<2.0*R200)     = 458
+| snap 04 | npart_coarse(r<2.0*R200)  = 0
+| snap 04 | npart_coarse_all          = 615
+| snap 04 | contamination(r<2.0*R200) = 0.0%
+| snap 04 | npart_zoom                = 220352
+| snap 04 | npart_tot                 = 2436379
+| snap 04 | Rexclude contaminants     = 0
+| snap 04 | Broad contaminants        = 62
+| snap 04 | Convex Hull coarse part -> vol=8.275e+04 dens=4.025e+07
+| snap 04 | Convex Hull zoom part   -> vol=8.275e+04 dens=4.025e+07
+| snap 04 | Volume increase         -> 0.00%
+| snap 04 | ------------------------------------------------------------
+| snap 04 | Tracking stopped at aexp=0.0752720004282809
+| ------------------------------------------------------------
+| Particle list outputed to results
+| Hull diagnostic: boxsize_kpc=367.247, shift=[-0.2890625  0.1640625  0.1875   ]
+| Hull diagnostic: nvertices=571
+| Hull diagnostic: pts_allowed range x=[0.71890,0.88081] y=[0.27146,0.40643] z=[0.24861,0.37962] (code units)
+| Hull diagnostic: hull_pts range x=[0.71890,0.88081] y=[0.27146,0.40643] z=[0.24861,0.37962] (code units)
+| Wide hull written to results_part_wide
+| Wide hull: nvertices=576
+*c* argument looks like a single numeric RGB or RGBA sequence, which should be avoided as value-mapping will have precedence in case its length matches with *x* & *y*.  Please use the *color* keyword-argument or provide a 2D array with a single row if you intend to specify the same RGB or RGBA value for all points.
+*c* argument looks like a single numeric RGB or RGBA sequence, which should be avoided as value-mapping will have precedence in case its length matches with *x* & *y*.  Please use the *color* keyword-argument or provide a 2D array with a single row if you intend to specify the same RGB or RGBA value for all points.
+*c* argument looks like a single numeric RGB or RGBA sequence, which should be avoided as value-mapping will have precedence in case its length matches with *x* & *y*.  Please use the *color* keyword-argument or provide a 2D array with a single row if you intend to specify the same RGB or RGBA value for all points.
+*c* argument looks like a single numeric RGB or RGBA sequence, which should be avoided as value-mapping will have precedence in case its length matches with *x* & *y*.  Please use the *color* keyword-argument or provide a 2D array with a single row if you intend to specify the same RGB or RGBA value for all points.
+*c* argument looks like a single numeric RGB or RGBA sequence, which should be avoided as value-mapping will have precedence in case its length matches with *x* & *y*.  Please use the *color* keyword-argument or provide a 2D array with a single row if you intend to specify the same RGB or RGBA value for all points.
+*c* argument looks like a single numeric RGB or RGBA sequence, which should be avoided as value-mapping will have precedence in case its length matches with *x* & *y*.  Please use the *color* keyword-argument or provide a 2D array with a single row if you intend to specify the same RGB or RGBA value for all points.
+| Tracking cache saved to results_tracking_cache.pkl
+| ------------------------------------------------------------
+| RAMSES polynomial coefficients for camera halo tracking
+| ------------------------------------------------------------
+| xcentre_frame=0.474720,0.028668,-0.113841,0.052650
+| ycentre_frame=0.494906,0.112314,-0.029930,-0.006554
+| zcentre_frame=0.518072,-0.291947,0.140115,-0.020727
+| ------------------------------------------------------------
+| Plotting
+| rc_data: 0 curves  ql_data: 0 points
+| Rotation curves disabled (rotation_curves=False)
+| Halo dynamics disabled (halo_dynamics=False)
+| Merger tree disabled (merger_tree=False)
+| [Warning] No Lagrangian iords collected — skipping page 6
